@@ -18,7 +18,9 @@ def self.create
   
 def self.new_by_name(song_name)
   song = self.new
-  song.name = 
+  song.name = song_name
+  song
+end 
   
   
   
