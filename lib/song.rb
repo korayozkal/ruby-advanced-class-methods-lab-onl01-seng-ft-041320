@@ -24,7 +24,8 @@ end
 
 def seld.create_by_name(song_name)
   song = self.new
-  song.
+  song.name = song_name
+  song.all 
   
   
 
