@@ -11,9 +11,11 @@ class Song
   end
 #####################################################
 
-def song_create(song)
-  
-
+def self.create(name)
+		instance = Artist.new(name)
+		instance.save
+		instance
+	end
 
 
 #####################################################
