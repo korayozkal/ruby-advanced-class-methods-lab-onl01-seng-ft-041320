@@ -12,10 +12,10 @@ class Song
 #####################################################
 
 def self.create(name)
-		instance = Artist.new(name)
-		instance.save
-		instance
-	end
+    artist = self.new(name)
+    artist.name = name
+    artist
+  end
 
 
 #####################################################
