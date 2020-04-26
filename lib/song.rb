@@ -10,8 +10,6 @@ class Song
     self.class.all << self
   end
  
-		def destroy_all
-			self.all.clear
-		end
+	
 
 end
