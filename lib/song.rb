@@ -21,7 +21,7 @@ class Song
 			else
 				song
 			end
-		end
+		
 
 	end
 
